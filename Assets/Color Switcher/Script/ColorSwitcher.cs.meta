@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: bdd0dcf458e918d488cd4584008ecefd
+labels:
+- Effect
+- Fade
+- Color
+- Switcher
+- Fader
+- Changer
+- Switch
+- Change
+- Script
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

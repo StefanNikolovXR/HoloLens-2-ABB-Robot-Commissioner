@@ -1,0 +1,4 @@
+v2019.2.3
+
+Patch Notes:
+- Added an Input System Helper static class that allows one to map KeyCode to the New Input System Key enum and to handle GetKeyDown, GetKey and GetKeyUp the same regardless of input system

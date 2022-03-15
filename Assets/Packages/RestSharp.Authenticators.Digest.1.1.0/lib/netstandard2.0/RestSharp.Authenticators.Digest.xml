@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RestSharp.Authenticators.Digest</name>
+    </assembly>
+    <members>
+        <member name="T:RestSharp.Authenticators.Digest.DigestAuthenticator">
+            <summary>
+            Digest midleware for <see cref="T:RestSharp.IRestClient"/>.
+            </summary>
+        </member>
+        <member name="F:RestSharp.Authenticators.Digest.DigestAuthenticator.username">
+            <summary>
+            The username.
+            </summary>
+        </member>
+        <member name="F:RestSharp.Authenticators.Digest.DigestAuthenticator.password">
+            <summary>
+            The password.
+            </summary>
+        </member>
+        <member name="P:RestSharp.Authenticators.Digest.DigestAuthenticator.Timeout">
+            <summary>
+            The timeout.
+            </summary>
+        </member>
+        <member name="M:RestSharp.Authenticators.Digest.DigestAuthenticator.#ctor(System.String,System.String)">
+            <summary>
+            Creates a new instance of <see cref="T:RestSharp.Authenticators.Digest.DigestAuthenticator"/> class.
+            </summary>
+            <param name="username">The username.</param>
+            <param name="password">The password.</param>
+        </member>
+        <member name="M:RestSharp.Authenticators.Digest.DigestAuthenticator.Authenticate(RestSharp.IRestClient,RestSharp.IRestRequest)">
+            <inheritdoc cref="T:RestSharp.Authenticators.IAuthenticator" />.
+        </member>
+        <member name="T:RestSharp.Authenticators.Digest.DigestAuthenticatorManager">
+            <summary>
+            DigestAuthenticatorManager class.
+            </summary>
+        </member>
+        <member name="F:RestSharp.Authenticators.Digest.DigestAuthenticatorManager.DIGEST_REALM">
+            <summary>
+            Header Realm.
+            </summary>
+        </member>
+        <member name="F:RestSharp.Authenticators.Digest.DigestAuthenticatorManager.REALM">
+            <summary>
+            Header Realm.
+            </summary>
+        </member>
+        <member name="F:RestSharp.Authenticators.Digest.DigestAuthenticatorManager.NONCE">
+            <summary>
+            Header nonce.
+            </summary>
+        </member>
+        <member name="F:RestSharp.Authenticators.Digest.DigestAuthenticatorManager.QOP">
+            <summary>
+            Header qop.
+            </summary>
+        </member>
+        <member name="F:RestSharp.Authenticators.Digest.DigestAuthenticatorManager._host">
+            <summary>
+            The host.
+            </summary>
+        </member>
+        <member name="F:RestSharp.Authenticators.Digest.DigestAuthenticatorManager._username">
+            <summary>
+            The user.
+            </summary>
+        </member>
+        <member name="F:RestSharp.Authenticators.Digest.DigestAuthenticatorManager._password">
+            <summary>
+            The password.
+            </summary>
+        </member>
+        <member name="F:RestSharp.Authenticators.Digest.DigestAuthenticatorManager._timeout">
+            <summary>
+            The timeout.
+            </summary>
+        </member>
+        <member name="F:RestSharp.Authenticators.Digest.DigestAuthenticatorManager._realm">
+            <summary>
+            The Realm that is returned by the first digest request (without the data).
+            </summary>
+        </member>
+        <member name="F:RestSharp.Authenticators.Digest.DigestAuthenticatorManager._nonce">
+            <summary>
+            The nonce that is returned by the first digest request (without the data).
+            </summary>
+        </member>
+        <member name="F:RestSharp.Authenticators.Digest.DigestAuthenticatorManager._qop">
+            <summary>
+            The qop that is returned by the first digest request (without the data).
+            </summary>
+        </member>
+        <member name="F:RestSharp.Authenticators.Digest.DigestAuthenticatorManager._cnonce">
+            <summary>
+            The cnounce that is generated randomly by the application.
+            </summary>
+        </member>
+        <member name="F:RestSharp.Authenticators.Digest.DigestAuthenticatorManager.NONCE_COUNT">
+            <summary>
+            The nounce count (usually 000001)
+            </summary>
+        </member>
+        <member name="M:RestSharp.Authenticators.Digest.DigestAuthenticatorManager.#ctor(System.Uri,System.String,System.String,System.Int32)">
+            <summary>
+            Creates a new instance of <see cref="T:RestSharp.Authenticators.Digest.DigestAuthenticatorManager"/> class.
+            </summary>
+            <param name="host">The host.</param>
+            <param name="username">The username.</param>
+            <param name="password">The password.</param>
+            <param name="timeout">The timeout.</param>
+        </member>
+        <member name="M:RestSharp.Authenticators.Digest.DigestAuthenticatorManager.GenerateMD5(System.String)">
+            <summary>
+            Generate the MD5 Hash.
+            </summary>
+            <param name="input">The input.</param>
+            <returns>The MD5.</returns>
+        </member>
+        <member name="M:RestSharp.Authenticators.Digest.DigestAuthenticatorManager.GetDigestHeader(System.String,RestSharp.Method)">
+            <summary>
+            Gets the digest header.
+            </summary>
+            <param name="digestUri">The digest uri.</param>
+            <param name="method">The method.</param>
+            <returns>The digest header.</returns>
+        </member>
+        <member name="M:RestSharp.Authenticators.Digest.DigestAuthenticatorManager.GetDigestAuthHeader(System.String,RestSharp.Method)">
+            <summary>
+            Gets the digest auth header.
+            </summary>
+            <param name="path">The request path.</param>
+            <param name="method">The request method.</param>
+        </member>
+        <member name="M:RestSharp.Authenticators.Digest.DigestAuthenticatorManager.GetDigestDataFromException(System.Net.WebException)">
+            <summary>
+            Gets the digest data from exception.
+            </summary>
+            <param name="ex">The exception.</param>
+        </member>
+        <member name="M:RestSharp.Authenticators.Digest.DigestAuthenticatorManager.TransformHeaderToDictionary(System.String)">
+            <summary>
+            Transform the header to dictionary.
+            </summary>
+            <param name="wwwAuthenticateHeader">The header</param>
+            <returns>A instance of <see cref="T:System.Collections.Generic.IDictionary`2"/>.</returns>
+        </member>
+        <member name="T:RestSharp.Authenticators.Digest.DictionaryHeaderExtension">
+            <summary>
+            Dictionary extension.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,17 @@
+{
+    "name": "HeathenEngineering.Editor",
+    "references": [
+        "GUID:beeb621759319eb47973a81d9afea6bd"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,19 @@
+{
+    "name": "HeathenEngineering.UX.uGUIExtras.Editor",
+    "references": [
+        "GUID:58d42c70423577947911995925414405",
+        "GUID:3aac39452c3019d42b63608d3e1fe66c",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

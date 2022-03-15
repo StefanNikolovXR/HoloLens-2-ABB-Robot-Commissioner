@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f86030aa262a4fd4aace97fcca7ba1db, type: 3}
+  m_Name: Win Buisy
+  m_EditorClassIdentifier: 
+  DeveloperDescription: Simple Windows Aero Style Cursors
+  hotSpot: {x: 16, y: 16}
+  Animation:
+    loop: 1
+    textureArray:
+    - {fileID: 2800000, guid: ca47c0c31489f7e40b59f7e5cb38169d, type: 3}
+    - {fileID: 2800000, guid: 6d4ec8282e22e2d439602dac532ba9e1, type: 3}
+    - {fileID: 2800000, guid: 9feec68aea5a2234682060222fe2c152, type: 3}
+    - {fileID: 2800000, guid: fad4d6c7f674c7c4d8be93d06c2c7677, type: 3}
+    - {fileID: 2800000, guid: 45bc81618c9bd9a4bb0969c6ca59cf31, type: 3}
+    - {fileID: 2800000, guid: f1bb292c456cb68448d7e62fc528b593, type: 3}
+    - {fileID: 2800000, guid: 121f734d820594b4cad8205869991bea, type: 3}
+    - {fileID: 2800000, guid: 3fb6d367356efa243ae57aab42d309f7, type: 3}
+    - {fileID: 2800000, guid: 0cd791d0992e608498f01575c936dcbb, type: 3}
+    - {fileID: 2800000, guid: 96799547f15ab7b48925ac3f354db3a9, type: 3}
+    - {fileID: 2800000, guid: 5da2ae473b29ca842b0e7ed78be70c8f, type: 3}
+    - {fileID: 2800000, guid: 6205058cc5d7e624c8a32bba59814091, type: 3}
+    - {fileID: 2800000, guid: f71a585a4a2ac3443a175758d986ce1a, type: 3}
+    - {fileID: 2800000, guid: 6cf6a4db4ca16f44cb7ffc58bc3c487b, type: 3}
+    - {fileID: 2800000, guid: da3a0bc091b65fd4aa2d7913f867a09c, type: 3}
+    - {fileID: 2800000, guid: 46f85d93a3982504b91cfa907913000d, type: 3}
+    - {fileID: 2800000, guid: 56eda0b32767b5c41a502e599a836263, type: 3}
+    - {fileID: 2800000, guid: d3fc7cc711237eb4f839faf2d474fed5, type: 3}
+    framesPerSecond: 30

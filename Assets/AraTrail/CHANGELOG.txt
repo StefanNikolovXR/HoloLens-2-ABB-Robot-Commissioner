@@ -1,0 +1,63 @@
+# Change Log
+All notable changes to “Ara Trails” will be documented in this file.
+
+## [1.5.1] - 2020-10-19
+### Added
+- Added a "Custom" option in the simulation space dropdown, that lets you select a custom simulation space, in addition to "Self" and "World".
+
+### Changed
+- "Self" simulation space has been changed to mimic the behavior of Unity's ParticleSystem "Self" space. If you want the old "Self" space behavior back,
+  switch the simulation space to "Custom" and select the trail's parent transform as the custom simulation space.
+
+### Fixed
+- Length misspelled as "Lenght"
+
+## [1.5] - 2020-07-28
+### Added
+- New texture tiling mode: WorldTile. Texture coordinates are specified in each trail point upon being emitted, and they don't change over time.
+
+### Changed
+- Significant overall performance improvement.
+
+## [1.4] - 2019-12-19
+### Added
+- Support for LWRP
+- Quad mapping: This eliminates UV distortion when using the default triangle-strip trails. It relies on the shader accepting 4-component texture coordinates, and using tex2Dproj instead of tex2D.
+
+### Fixed 
+- Bug with incorrect tangent-space calculation when using explicit point orientation.
+
+## [1.3] - 2019-01-31
+### Added 
+- Custom trail sections: trails can now take as input any shape to extrude along the trail's path.
+
+## [1.2] - 2018-12-14
+### Fixed 
+- Bug that caused all cameras present in the scene to update the trail regardless of their layer culling mask.
+
+## [1.1] - 2018-3-31
+### Added 
+- Sorting option: allows to alternate between two drawing orders: newer on top, or older on top (default).
+### Fixed 
+- Bug that caused UV coords for the first trail segment to be incorrect.
+
+## [1.0.2] - 2018-3-31
+### Added 
+- Timescale option: allows to use unscaled time instead of regular delta time.
+### Fixed 
+- Bug that prevented passing float.PositiveInfinity as the points lifetime.
+
+
+## [1.0.1] - 2018-3-06
+### Fixed 
+- Bug that caused the corner roundess feature to generate incorrect texture coordinates in certain cases.
+
+### Added
+- Warmup time for physical simulation of trails.
+
+### Changed
+- Order of inspector sections is now Overall > Lenght > Time > Emission > Phisics > Texture > Rendering.
+
+
+## [1.0.0] - 2017-10-16
+- Initial release.

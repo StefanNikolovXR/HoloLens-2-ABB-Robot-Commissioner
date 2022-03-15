@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f86030aa262a4fd4aace97fcca7ba1db, type: 3}
+  m_Name: Mac Buisy
+  m_EditorClassIdentifier: 
+  DeveloperDescription: Simple Mac Style Cursors
+  hotSpot: {x: 16, y: 16}
+  Animation:
+    loop: 1
+    textureArray:
+    - {fileID: 2800000, guid: 710da0518eba88448b16c1d796ffbdcb, type: 3}
+    - {fileID: 2800000, guid: 08b4a1a76c313854ba15e456b050e5de, type: 3}
+    - {fileID: 2800000, guid: a30e3e6157a209e458af51dfc99e3ce9, type: 3}
+    - {fileID: 2800000, guid: e62e30a1a5a57df45839f766f10baee9, type: 3}
+    - {fileID: 2800000, guid: b280f5fbc7960634389f1941c6b3120d, type: 3}
+    - {fileID: 2800000, guid: 420541bdf77536541bbdc1926816a3ec, type: 3}
+    - {fileID: 2800000, guid: 715fb8d55d979df4e92164ed1cb565c6, type: 3}
+    - {fileID: 2800000, guid: 825227bc2f1822e4ca1d9efdd7c71c27, type: 3}
+    - {fileID: 2800000, guid: 51fb9c9291668294d818a110d23e3f3f, type: 3}
+    - {fileID: 2800000, guid: 1211aeed2bd00d542b943d9a86142dc5, type: 3}
+    - {fileID: 2800000, guid: 8f7859c70b1d2094f9c8a9f75bc342d8, type: 3}
+    - {fileID: 2800000, guid: 8b240fc83989d27438672eff0ac01359, type: 3}
+    - {fileID: 2800000, guid: 4655c360d8e438e45937f6eeba2f47b7, type: 3}
+    - {fileID: 2800000, guid: 8f01b32801716814d88e6d0aee61bebd, type: 3}
+    framesPerSecond: 30

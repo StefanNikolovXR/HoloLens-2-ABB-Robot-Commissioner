@@ -1,0 +1,55 @@
+v2019.2.2
+
+Patch Notes:
+Every feature, interface, componenet, object and enum is now fully documented including details on every field, attribute, event and funciton and samples and examples of use.
+https://kb.heathenengineering.com/assets/ux
+
+If you have any questions at all you should join the Discord and ask in the UX channel
+https://discord.gg/6X3xrRc
+
+Additions
+- Added UX.API.Windows exposing controls and tools for mannaging UI window elements
+- Added UX.API.Windows.EventWindowFocusChanged this event indicates the previous and current focused window
+- Added UX.API.Windows.GetAvailableWindows this will return a list of all available windows
+- Added UX.API.Windows.GetWindowWithTag this includes variations for all windows that match and the ability to match on multiple tags; note this uses the Heathen Scriptable Tag system the Unity Tag system can also be used but is not recomended
+- Added Window.Size this is a Vector2 and is the same as new Vector(Width, Height)
+- Added Focused Unity and Game events, this is invoked when the window takes focus
+- Added Lost Focus Unity and Game events, this is invoked when the window loses focus
+- Added Maximized Unity and Game events, this is invoked when the window is maximized
+- Added Minimized Unity and Game events, this is invoked when the window is minimized
+- Added Restore Unity and Game event, this is invoked when the window's max or minimized state is broken
+- Added Window.Minimize to set the window to its minimal size
+- Added Window.Maximize to set the window to fill its parent
+- Added Window.Restore to restore the window to its pre minimize or pre maximize size and position
+- Added Window.IsMinimized to get or set the minimized state
+- Added Window.IsMaximized to get or set the maximized state
+- Added Window.SnapTo this takes a location which is an enum including options such as centre, lower left, left middle, upper left, top middle, upper right, etc.
+- Added API.Log this replaces the need of FeedbackSystem, FeedbackConfiguraiton and Feedback log tools it contains the required configuraiton and fields for all features
+- Added API.Log.Text this outputs a human friendly log string
+- Added API.Log.Json this outputs a JSON formated log string
+- Added API.Log.Bytes this outputs thhe JSON object as a byte[] suitable for Unity User Report attachments
+- Added API.Log.Object this outputs the LogData object
+- Added API.Log.Parse(...) which returns the LogData object from a JSON string or byte[]
+- Added API.Log.SaveJsonFile which saves the log to a file in JSON format
+- Added API.Log.SaveTextFile which saves the log to a humand friendly text file
+- Added API.Cursors manages the cursor system
+- Added API.Json utility for JSON serialization
+- Added API.Scenes manages the scenes management system
+- Added API.Screenshot tools for taking and processing screenshots
+- Added API.Selection manages the selection and searching system
+- Added API.Trello provides integration with Trello
+- Added API.Windows manages the window system
+- Added Selectable Object used with the selection and searching system
+
+Changes
+- Window.Position now respects minimal size and clamp to parent options
+- Window.Width and Window.Height now respect minimal size options
+- Replaced Window.DockTo with Window.SetTransform
+- Window.SetTransform now always respects the minimal size and clamp to parent settings
+- Updated window focus system to use API.Windows this allows assurance that the focused and lost focus events will trigger correctly for all windows all the time
+- Window will now force its RectTransfrom anchors and pivot to be (0.5, 0.5) this insures best performance of the window system
+- Updated the window sample scene to demonstrate the min, max, restore feature
+
+Removals
+- Removed FeedbackSystem this has been replaced by API.Log and API.Trello features ... please see the Knowledge Base for details
+- Removed FeedbackConfiguration this has been replaced by API.Log

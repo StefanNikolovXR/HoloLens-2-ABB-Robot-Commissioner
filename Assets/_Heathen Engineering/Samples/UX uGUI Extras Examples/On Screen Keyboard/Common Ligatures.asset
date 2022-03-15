@@ -1,0 +1,259 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e987cbc8fbfad4b4c929d576ebe84984, type: 3}
+  m_Name: Common Ligatures
+  m_EditorClassIdentifier: 
+  map:
+  - Ligature: "\xA9"
+    Characters: (C)
+  - Ligature: "\xA9"
+    Characters: (c)
+  - Ligature: "\u2117"
+    Characters: (SC)
+  - Ligature: "\u2117"
+    Characters: (sc)
+  - Ligature: "\u2117"
+    Characters: (Sc)
+  - Ligature: "\u2117"
+    Characters: (sC)
+  - Ligature: "\u2122"
+    Characters: (TM)
+  - Ligature: "\u2122"
+    Characters: (tm)
+  - Ligature: "\u2122"
+    Characters: (Tm)
+  - Ligature: "\u2122"
+    Characters: (tM)
+  - Ligature: "\xAE"
+    Characters: (RTM)
+  - Ligature: "\xAE"
+    Characters: (rtm)
+  - Ligature: "\xAE"
+    Characters: (rTm)
+  - Ligature: "\xAE"
+    Characters: (Rtm)
+  - Ligature: "\xAE"
+    Characters: (RTm)
+  - Ligature: "\xAE"
+    Characters: (RtM)
+  - Ligature: "\xAE"
+    Characters: (rTM)
+  - Ligature: "\xAE"
+    Characters: (rtM)
+  - Ligature: "\u2120"
+    Characters: (sm)
+  - Ligature: "\u2120"
+    Characters: (SM)
+  - Ligature: "\u2120"
+    Characters: (Sm)
+  - Ligature: "\u2120"
+    Characters: (sM)
+  - Ligature: "\xE0"
+    Characters: '`a'
+  - Ligature: "\xC0"
+    Characters: '`A'
+  - Ligature: "\xE8"
+    Characters: '`e'
+  - Ligature: "\xC8"
+    Characters: '`E'
+  - Ligature: "\xEC"
+    Characters: '`i'
+  - Ligature: "\xCC"
+    Characters: '`I'
+  - Ligature: "\xF2"
+    Characters: '`o'
+  - Ligature: "\xD2"
+    Characters: '`O'
+  - Ligature: "\xF9"
+    Characters: '`u'
+  - Ligature: "\xD9"
+    Characters: '`U'
+  - Ligature: "\u2116"
+    Characters: (No)
+  - Ligature: "\u2116"
+    Characters: (#)
+  - Ligature: "\xB0"
+    Characters: (deg)
+  - Ligature: "\xB9"
+    Characters: ^1
+  - Ligature: "\xB2"
+    Characters: ^2
+  - Ligature: "\xB3"
+    Characters: ^3
+  - Ligature: "\u2074"
+    Characters: ^4
+  - Ligature: "\u2075"
+    Characters: ^5
+  - Ligature: "\u2076"
+    Characters: ^6
+  - Ligature: "\u2077"
+    Characters: ^7
+  - Ligature: "\u2078"
+    Characters: ^8
+  - Ligature: "\u2079"
+    Characters: ^9
+  - Ligature: "\u2070"
+    Characters: ^0
+  - Ligature: "\u207A"
+    Characters: ^+
+  - Ligature: "\u207B"
+    Characters: ^-
+  - Ligature: "\u207C"
+    Characters: ^=
+  - Ligature: "\u207D"
+    Characters: ^(
+  - Ligature: "\u207E"
+    Characters: ^)
+  - Ligature: "\u1D43"
+    Characters: ^a
+  - Ligature: "\u1D47"
+    Characters: ^b
+  - Ligature: "\u1D9C"
+    Characters: ^c
+  - Ligature: "\u1D48"
+    Characters: ^d
+  - Ligature: "\u1D49"
+    Characters: ^e
+  - Ligature: "\u1DA0"
+    Characters: ^f
+  - Ligature: "\u1D4D"
+    Characters: ^g
+  - Ligature: "\u02B0"
+    Characters: ^h
+  - Ligature: "\u2071"
+    Characters: ^i
+  - Ligature: "\u02B2"
+    Characters: ^j
+  - Ligature: "\u1D4F"
+    Characters: ^k
+  - Ligature: "\u02E1"
+    Characters: ^l
+  - Ligature: "\u1D50"
+    Characters: ^m
+  - Ligature: "\u207F"
+    Characters: ^n
+  - Ligature: "\u1D52"
+    Characters: ^o
+  - Ligature: "\u1D56"
+    Characters: ^p
+  - Ligature: "\u02B3"
+    Characters: ^r
+  - Ligature: "\u02E2"
+    Characters: ^s
+  - Ligature: "\u1D57"
+    Characters: ^t
+  - Ligature: "\u1D58"
+    Characters: ^u
+  - Ligature: "\u1D5B"
+    Characters: ^v
+  - Ligature: "\u02B7"
+    Characters: ^w
+  - Ligature: "\u02E3"
+    Characters: ^x
+  - Ligature: "\u02B8"
+    Characters: ^y
+  - Ligature: "\u1DBB"
+    Characters: ^z
+  - Ligature: "\u1D2C"
+    Characters: ^A
+  - Ligature: "\u1D2E"
+    Characters: ^B
+  - Ligature: "\u1D30"
+    Characters: ^D
+  - Ligature: "\u1D31"
+    Characters: ^E
+  - Ligature: "\u1D33"
+    Characters: ^G
+  - Ligature: "\u1D34"
+    Characters: ^H
+  - Ligature: "\u1D35"
+    Characters: ^I
+  - Ligature: "\u1D36"
+    Characters: ^J
+  - Ligature: "\u1D37"
+    Characters: ^K
+  - Ligature: "\u1D38"
+    Characters: ^L
+  - Ligature: "\u1D39"
+    Characters: ^M
+  - Ligature: "\u1D3A"
+    Characters: ^N
+  - Ligature: "\u1D3C"
+    Characters: ^O
+  - Ligature: "\u1D3E"
+    Characters: ^P
+  - Ligature: "\u1D3F"
+    Characters: ^R
+  - Ligature: "\u1D40"
+    Characters: ^T
+  - Ligature: "\u1D41"
+    Characters: ^U
+  - Ligature: "\u2C7D"
+    Characters: ^V
+  - Ligature: "\u1D42"
+    Characters: ^W
+  - Ligature: "\xBC"
+    Characters: 1/4
+  - Ligature: "\xBD"
+    Characters: 2/4
+  - Ligature: "\xBD"
+    Characters: 1/2
+  - Ligature: "\xBE"
+    Characters: 3/4
+  - Ligature: "\u2152"
+    Characters: 1/10
+  - Ligature: "\u2155"
+    Characters: 2/10
+  - Ligature: "\u2156"
+    Characters: 4/10
+  - Ligature: "\xBD"
+    Characters: 5/10
+  - Ligature: "\u2157"
+    Characters: 6/10
+  - Ligature: "\u2158"
+    Characters: 8/10
+  - Ligature: "\u2153"
+    Characters: 1/3
+  - Ligature: "\u2154"
+    Characters: 2/3
+  - Ligature: "\u2155"
+    Characters: 1/5
+  - Ligature: "\u2156"
+    Characters: 2/5
+  - Ligature: "\u2157"
+    Characters: 3/5
+  - Ligature: "\u2158"
+    Characters: 4/5
+  - Ligature: "\u2159"
+    Characters: 1/6
+  - Ligature: "\u2153"
+    Characters: 2/6
+  - Ligature: "\xBD"
+    Characters: 3/6
+  - Ligature: "\u2154"
+    Characters: 4/6
+  - Ligature: "\u215A"
+    Characters: 5/6
+  - Ligature: "\u215B"
+    Characters: 1/8
+  - Ligature: "\xBC"
+    Characters: 2/8
+  - Ligature: "\u215C"
+    Characters: 3/8
+  - Ligature: "\xBD"
+    Characters: 4/8
+  - Ligature: "\u215D"
+    Characters: 5/8
+  - Ligature: "\xBE"
+    Characters: 6/8
+  - Ligature: "\u215E"
+    Characters: 7/8

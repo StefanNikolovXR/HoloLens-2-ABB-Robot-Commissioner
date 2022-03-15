@@ -1,0 +1,904 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f899153263fb6934b9379185977154f2, type: 3}
+  m_Name: Korean Keyboard
+  m_EditorClassIdentifier: 
+  Notes: Generated from [Korean Keyboard] on 2019-Jun-24 17:22:18
+  Keys:
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: Esc
+      shifted: Esc
+      altGr: Esc
+      altGrShifted: Esc
+      code: 27
+    Size: {x: 32, y: 32}
+    Position: {x: -227.70001, y: 190.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 3
+    keyGlyph:
+      normal: F1
+      shifted: F1
+      altGr: F1
+      altGrShifted: F1
+      code: 282
+    Size: {x: 32, y: 32}
+    Position: {x: -170.29999, y: 190.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 3
+    keyGlyph:
+      normal: F2
+      shifted: F2
+      altGr: F2
+      altGrShifted: F2
+      code: 283
+    Size: {x: 32, y: 32}
+    Position: {x: -138.29999, y: 190.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 3
+    keyGlyph:
+      normal: F3
+      shifted: F3
+      altGr: F3
+      altGrShifted: F3
+      code: 284
+    Size: {x: 32, y: 32}
+    Position: {x: -104.29999, y: 190.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 3
+    keyGlyph:
+      normal: F4
+      shifted: F4
+      altGr: F4
+      altGrShifted: F4
+      code: 285
+    Size: {x: 32, y: 32}
+    Position: {x: -69.79999, y: 190.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 3
+    keyGlyph:
+      normal: F5
+      shifted: F5
+      altGr: F5
+      altGrShifted: F5
+      code: 286
+    Size: {x: 32, y: 32}
+    Position: {x: -21.599976, y: 190.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 3
+    keyGlyph:
+      normal: F6
+      shifted: F6
+      altGr: F6
+      altGrShifted: F6
+      code: 287
+    Size: {x: 32, y: 32}
+    Position: {x: 12.399994, y: 190.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 3
+    keyGlyph:
+      normal: F7
+      shifted: F7
+      altGr: F7
+      altGrShifted: F7
+      code: 288
+    Size: {x: 32, y: 32}
+    Position: {x: 47, y: 190.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 3
+    keyGlyph:
+      normal: F8
+      shifted: F8
+      altGr: F8
+      altGrShifted: F8
+      code: 289
+    Size: {x: 32, y: 32}
+    Position: {x: 81.399994, y: 190.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 3
+    keyGlyph:
+      normal: F9
+      shifted: F9
+      altGr: F9
+      altGrShifted: F9
+      code: 290
+    Size: {x: 32, y: 32}
+    Position: {x: 125.399994, y: 190.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 3
+    keyGlyph:
+      normal: F10
+      shifted: F10
+      altGr: F10
+      altGrShifted: F10
+      code: 291
+    Size: {x: 32, y: 32}
+    Position: {x: 159.4, y: 190.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 3
+    keyGlyph:
+      normal: F11
+      shifted: F11
+      altGr: F11
+      altGrShifted: F11
+      code: 292
+    Size: {x: 32, y: 32}
+    Position: {x: 193.4, y: 190.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 3
+    keyGlyph:
+      normal: F12
+      shifted: F12
+      altGr: F12
+      altGrShifted: F12
+      code: 293
+    Size: {x: 32, y: 32}
+    Position: {x: 227.4, y: 190.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: =
+      shifted: +
+      altGr: =
+      altGrShifted: +
+      code: 61
+    Size: {x: 32, y: 32}
+    Position: {x: 153.40002, y: 156.50002, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: '-'
+      shifted: _
+      altGr: '-'
+      altGrShifted: _
+      code: 45
+    Size: {x: 32, y: 32}
+    Position: {x: 121.400055, y: 156.50002, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: 0
+      shifted: )
+      altGr: 0
+      altGrShifted: )
+      code: 48
+    Size: {x: 32, y: 32}
+    Position: {x: 89.400024, y: 156.50002, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: 9
+      shifted: (
+      altGr: 9
+      altGrShifted: (
+      code: 57
+    Size: {x: 32, y: 32}
+    Position: {x: 57.400024, y: 156.50002, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: 8
+      shifted: '*'
+      altGr: 8
+      altGrShifted: '*'
+      code: 56
+    Size: {x: 32, y: 32}
+    Position: {x: 25.400024, y: 156.50002, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: 7
+      shifted: '&'
+      altGr: 7
+      altGrShifted: '&'
+      code: 55
+    Size: {x: 32, y: 32}
+    Position: {x: -6, y: 156.50002, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: 6
+      shifted: ^
+      altGr: 6
+      altGrShifted: ^
+      code: 54
+    Size: {x: 32, y: 32}
+    Position: {x: -37.599976, y: 156.50002, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: 5
+      shifted: '%'
+      altGr: 5
+      altGrShifted: '%'
+      code: 53
+    Size: {x: 32, y: 32}
+    Position: {x: -69.599976, y: 156.50002, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: 4
+      shifted: $
+      altGr: "\u20AC"
+      altGrShifted: "\u20AC"
+      code: 52
+    Size: {x: 32, y: 32}
+    Position: {x: -100.79993, y: 156.50002, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: 3
+      shifted: "\xA3"
+      altGr: 3
+      altGrShifted: "\xA3"
+      code: 51
+    Size: {x: 32, y: 32}
+    Position: {x: -132.29993, y: 156.50002, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: 2
+      shifted: '"'
+      altGr: 2
+      altGrShifted: '"'
+      code: 50
+    Size: {x: 32, y: 32}
+    Position: {x: -164.29993, y: 156.50002, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: 1
+      shifted: '!'
+      altGr: 1
+      altGrShifted: '!'
+      code: 49
+    Size: {x: 32, y: 32}
+    Position: {x: -196.29987, y: 156.50002, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: '`'
+      shifted: "\xAC"
+      altGr: "\xA6"
+      altGrShifted: "\xA6"
+      code: 96
+    Size: {x: 32, y: 32}
+    Position: {x: -227.70001, y: 156.50002, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 5
+    keyGlyph:
+      normal: Backspace
+      shifted: Backspace
+      altGr: Backspace
+      altGrShifted: Backspace
+      code: 8
+    Size: {x: 72, y: 32}
+    Position: {x: 206.1, y: 156.50002, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 1
+    keyGlyph:
+      normal: Tab
+      shifted: Tab
+      altGr: Tab
+      altGrShifted: Tab
+      code: 9
+    Size: {x: 46.7, y: 32}
+    Position: {x: -219.69995, y: 123, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: "\u3142"
+      shifted: "\u3143"
+      altGr: "\u3142"
+      altGrShifted: "\u3143"
+      code: 113
+    Size: {x: 32, y: 32}
+    Position: {x: -180.29993, y: 122.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: "\u3148"
+      shifted: "\u3149"
+      altGr: "\u3148"
+      altGrShifted: "\u3149"
+      code: 119
+    Size: {x: 32, y: 32}
+    Position: {x: -148.29993, y: 122.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: "\u3137"
+      shifted: "\u3132"
+      altGr: "\u3137"
+      altGrShifted: "\u3132"
+      code: 101
+    Size: {x: 32, y: 32}
+    Position: {x: -116.79999, y: 122.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: "\u3131"
+      shifted: "\u3132"
+      altGr: "\u3131"
+      altGrShifted: "\u3132"
+      code: 114
+    Size: {x: 32, y: 32}
+    Position: {x: -85.29999, y: 122.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: "\u3145"
+      shifted: "\u3146"
+      altGr: "\u3145"
+      altGrShifted: "\u3146"
+      code: 116
+    Size: {x: 32, y: 32}
+    Position: {x: -53.599976, y: 122.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: "\u315B"
+      shifted: "\u315B"
+      altGr: "\u315B"
+      altGrShifted: "\u315B"
+      code: 121
+    Size: {x: 32, y: 32}
+    Position: {x: -22, y: 122.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: "\u3155"
+      shifted: "\u3155"
+      altGr: "\u3155"
+      altGrShifted: "\u3155"
+      code: 117
+    Size: {x: 32, y: 32}
+    Position: {x: 9.600006, y: 122.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: "\u3151"
+      shifted: "\u3151"
+      altGr: "\u3151"
+      altGrShifted: "\u3151"
+      code: 105
+    Size: {x: 32, y: 32}
+    Position: {x: 41.50003, y: 122.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: "\u3150"
+      shifted: "\u3152"
+      altGr: "\u3150"
+      altGrShifted: "\u3152"
+      code: 111
+    Size: {x: 32, y: 32}
+    Position: {x: 73.400024, y: 122.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: "\u3154"
+      shifted: "\u3156"
+      altGr: "\u3154"
+      altGrShifted: "\u3156"
+      code: 112
+    Size: {x: 32, y: 32}
+    Position: {x: 105.400024, y: 122.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: '['
+      shifted: '{'
+      altGr: '['
+      altGrShifted: '{'
+      code: 91
+    Size: {x: 32, y: 32}
+    Position: {x: 137.40002, y: 122.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: ']'
+      shifted: '}'
+      altGr: ']'
+      altGrShifted: '}'
+      code: 93
+    Size: {x: 32, y: 32}
+    Position: {x: 169.40002, y: 122.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 1
+    keyGlyph:
+      normal: Return
+      shifted: Return
+      altGr: Return
+      altGrShifted: Return
+      code: 13
+    Size: {x: 54.7, y: 66}
+    Position: {x: 212.75, y: 106, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 2
+    keyGlyph:
+      normal: Caps Lock
+      shifted: Caps Lock
+      altGr: Caps Lock
+      altGrShifted: Caps Lock
+      code: 301
+    Size: {x: 46.7, y: 32}
+    Position: {x: -219.70007, y: 90, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: "\u3141"
+      shifted: "\u3141"
+      altGr: "\u3141"
+      altGrShifted: "\u3141"
+      code: 97
+    Size: {x: 32, y: 32}
+    Position: {x: -180.29993, y: 89.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: "\u3134"
+      shifted: "\u3134"
+      altGr: "\u3134"
+      altGrShifted: "\u3134"
+      code: 115
+    Size: {x: 32, y: 32}
+    Position: {x: -148.29993, y: 89.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: "\u3147"
+      shifted: "\u3147"
+      altGr: "\u3147"
+      altGrShifted: "\u3147"
+      code: 100
+    Size: {x: 32, y: 32}
+    Position: {x: -116.79993, y: 89.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: "\u3139"
+      shifted: "\u3139"
+      altGr: "\u3139"
+      altGrShifted: "\u3139"
+      code: 102
+    Size: {x: 32, y: 32}
+    Position: {x: -85.29993, y: 89.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: "\u314E"
+      shifted: "\u314E"
+      altGr: "\u314E"
+      altGrShifted: "\u314E"
+      code: 103
+    Size: {x: 32, y: 32}
+    Position: {x: -53.599976, y: 89.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: "\u3157"
+      shifted: "\u3157"
+      altGr: "\u3157"
+      altGrShifted: "\u3157"
+      code: 104
+    Size: {x: 32, y: 32}
+    Position: {x: -22, y: 89.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: "\u3153"
+      shifted: "\u3153"
+      altGr: "\u3153"
+      altGrShifted: "\u3153"
+      code: 106
+    Size: {x: 32, y: 32}
+    Position: {x: 9.599976, y: 89.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: "\u314F"
+      shifted: "\u314F"
+      altGr: "\u314F"
+      altGrShifted: "\u314F"
+      code: 107
+    Size: {x: 32, y: 32}
+    Position: {x: 41.50003, y: 89.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: "\u3163"
+      shifted: "\u3163"
+      altGr: "\u3163"
+      altGrShifted: "\u3163"
+      code: 108
+    Size: {x: 32, y: 32}
+    Position: {x: 73.400024, y: 89.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: ;
+      shifted: ':'
+      altGr: ;
+      altGrShifted: ':'
+      code: 58
+    Size: {x: 32, y: 32}
+    Position: {x: 105.400024, y: 89.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: ''''
+      shifted: '@'
+      altGr: ''''
+      altGrShifted: ''''
+      code: 39
+    Size: {x: 32, y: 32}
+    Position: {x: 137.40002, y: 89.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 1
+    keyType: 0
+    keyGlyph:
+      normal: '#'
+      shifted: ~
+      altGr: '#'
+      altGrShifted: ~
+      code: 35
+    Size: {x: 32, y: 32}
+    Position: {x: 169.40002, y: 89.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 1
+    keyType: 2
+    keyGlyph:
+      normal: Shift
+      shifted: Shift
+      altGr: Shift
+      altGrShifted: Shift
+      code: 304
+    Size: {x: 55.75, y: 32}
+    Position: {x: -215.16992, y: 56.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: \
+      shifted: '|'
+      altGr: \
+      altGrShifted: '|'
+      code: 92
+    Size: {x: 32, y: 32}
+    Position: {x: -171.29993, y: 56.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: "\u314B"
+      shifted: "\u314B"
+      altGr: "\u314B"
+      altGrShifted: "\u314B"
+      code: 122
+    Size: {x: 32, y: 32}
+    Position: {x: -139.29993, y: 56.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: "\u314C"
+      shifted: "\u314C"
+      altGr: "\u314C"
+      altGrShifted: "\u314C"
+      code: 120
+    Size: {x: 32, y: 32}
+    Position: {x: -107.79993, y: 56.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: "\u314A"
+      shifted: "\u314A"
+      altGr: "\u314A"
+      altGrShifted: "\u314A"
+      code: 99
+    Size: {x: 32, y: 32}
+    Position: {x: -76.29993, y: 56.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: "\u314D"
+      shifted: "\u314D"
+      altGr: "\u314D"
+      altGrShifted: "\u314D"
+      code: 118
+    Size: {x: 32, y: 32}
+    Position: {x: -44.599976, y: 56.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: "\u3160"
+      shifted: "\u3160"
+      altGr: "\u3160"
+      altGrShifted: "\u3160"
+      code: 98
+    Size: {x: 32, y: 32}
+    Position: {x: -13, y: 56.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: "\u315C"
+      shifted: "\u315C"
+      altGr: "\u315C"
+      altGrShifted: "\u315C"
+      code: 110
+    Size: {x: 32, y: 32}
+    Position: {x: 18.600006, y: 56.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: "\u3161"
+      shifted: "\u3161"
+      altGr: "\u3161"
+      altGrShifted: "\u3161"
+      code: 109
+    Size: {x: 32, y: 32}
+    Position: {x: 50.5, y: 56.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: ','
+      shifted: <
+      altGr: ','
+      altGrShifted: <
+      code: 44
+    Size: {x: 32, y: 32}
+    Position: {x: 82.400024, y: 56.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: .
+      shifted: '>'
+      altGr: .
+      altGrShifted: '>'
+      code: 62
+    Size: {x: 32, y: 32}
+    Position: {x: 114.400055, y: 56.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: /
+      shifted: '?'
+      altGr: /
+      altGrShifted: '?'
+      code: 63
+    Size: {x: 32, y: 32}
+    Position: {x: 146.40002, y: 56.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 2
+    keyGlyph:
+      normal: Shift
+      shifted: Shift
+      altGr: Shift
+      altGrShifted: Shift
+      code: 303
+    Size: {x: 78.8, y: 32}
+    Position: {x: 202.00003, y: 56.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 0
+    keyType: 0
+    keyGlyph:
+      normal: Alt
+      shifted: Alt
+      altGr: Alt
+      altGrShifted: Alt
+      code: 308
+    Size: {x: 32, y: 32}
+    Position: {x: -138.79993, y: 23.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 1
+    keyType: 3
+    keyGlyph:
+      normal: Ctrl
+      shifted: Ctrl
+      altGr: Ctrl
+      altGrShifted: Ctrl
+      code: 306
+    Size: {x: 55.75, y: 32}
+    Position: {x: -215.17004, y: 23.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 1
+    keyType: 3
+    keyGlyph:
+      normal: Win
+      shifted: Win
+      altGr: Win
+      altGrShifted: Win
+      code: 311
+    Size: {x: 32, y: 32}
+    Position: {x: -171.29993, y: 23.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 1
+    keyType: 3
+    keyGlyph:
+      normal: Menu
+      shifted: Menu
+      altGr: Menu
+      altGrShifted: Menu
+      code: 319
+    Size: {x: 32, y: 32}
+    Position: {x: 169.40002, y: 23.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 1
+    keyType: 2
+    keyGlyph:
+      normal: AltGr
+      shifted: AltGr
+      altGr: AltGr
+      altGrShifted: AltGr
+      code: 313
+    Size: {x: 32, y: 32}
+    Position: {x: 137.40002, y: 23.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 1
+    keyType: 1
+    keyGlyph:
+      normal: 
+      shifted: 
+      altGr: 
+      altGrShifted: 
+      code: 32
+    Size: {x: 244.2, y: 32}
+    Position: {x: -0.6999512, y: 23.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - parseFromKeyCode: 1
+    keyType: 3
+    keyGlyph:
+      normal: Ctrl
+      shifted: Ctrl
+      altGr: Ctrl
+      altGrShifted: Ctrl
+      code: 305
+    Size: {x: 55.75, y: 32}
+    Position: {x: 213.79999, y: 23.5, z: 0.000029534403}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
