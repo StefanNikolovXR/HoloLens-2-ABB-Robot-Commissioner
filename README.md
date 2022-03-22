@@ -11,7 +11,7 @@ My app uses a digital twin of a real ABB robot (IRB 120) that is placed in the u
 
 # List of Features
 
-1. **Anchoring** a digital twin of a robot as well as menus, sliders and other UI elements with **World Locking (WLT)** and **Space Pins**. This method removes the need for object anchoring and provides stable holograms even in new, unscanned environment. Note that environments still need to be consistently well-lit to avoid hologram flickering and drifting.
+1. **Anchoring** a digital twin of a robot as well as menus, sliders and other UI elements with **World Locking (WLT)** and **Space Pins**. This method removes the need for object anchoring and provides stable holograms even in new, unscanned environment. Note that environments still need to be consistently well-lit to avoid hologram flickering and drifting. This holographic twin can be moved and rotated precisely to either overlay on top of a real robot or just be positioned in the environment such that it lets the user work with it comfortably.
 
 2. **Network connection from Unity to a RobotStudio station and vice versa via RobotWebServices**. This allows the holographic twin to be synchronized with the one in RobotStudio and it allows the user to see pathing and jogging in RobotStudio visualized in real physical space. Passing parameters from Unity to RS lets the user remotely control a robot from Unity and also create path instructions.
 
@@ -21,6 +21,10 @@ My app uses a digital twin of a real ABB robot (IRB 120) that is placed in the u
 
 5. **Various ways to control the holographic digital twin** by applying torque, rotating the joints manually with hand gestures, using an axis rotation slider or by moving the robot by the tip of its tool with hand gestures using an IK solver.
 
+6. **Recording and replaying a robot's motion by using a slider**. This lets the user iterate over a robot's path slowly and pause where necessary. Upon releasing the slider handle, the robot's motion will resume from the moment to which the recorded path was rewinded.
+
+7. **Using a digital assistant** for the purposes of learning how to work with the app, creating comments for other users to see and giving voice commands via LUIS, an Azure Cloud service for natural language parsing.
+
 # How to Install
 
 1. Clone the repository or download and unzip it.
@@ -28,9 +32,10 @@ My app uses a digital twin of a real ABB robot (IRB 120) that is placed in the u
 3. Add the project's folder to your **Projects** list in the Hub and select 2020.3.30f1 as the target platform.
 4. Run the project. The main and only scene is called **"Core February for Feedback"** and is the default scene that loads upon starting the project.
 5a. The project can be tested without a HoloLens 2 device by just hitting play and using the in-built MRTK input emulator.
-5b. To test with a real device, please download, install and run the **Holographic Remoting App** from the Microsoft Store on your HoloLens 2 device. Then, go to going to **Window->XR->Holographic Remoting for Play Mode** and paste the IP that the remoting app displays. Enable Holographic Remoting and hit play in the editor. **Note that both the HL2 and the desktop you're remoting the app from MUST be connected to the same Wifi network, otherwise the app won't start and will give an error that a handshake couldn't be established.
+5b. To test with a real device, please download, install and run the **Holographic Remoting App** from the Microsoft Store on your HoloLens 2 device. Then, go to going to **Window->XR->Holographic Remoting for Play Mode** and paste the IP that the remoting app displays. Enable Holographic Remoting and hit play in the editor. **Note that both the HL2 and the desktop you're remoting the app from MUST be connected to the same Wifi network, otherwise the app won't start and will give an error that a handshake couldn't be established.**
 
-Notes for better performance and visual clarity:
+
+# Notes for better performance and visual clarity:
 
 1. Run Unity's **Game** window in **Maximize on Play** mode.
 2. Disconnect the HoloLens 2 from its Wifi network and connect it to the desktop you're remoting from via a USB-C cable. Paste the new IP the Holographic Remoting App gives you into the Remoting panel in Unity.
